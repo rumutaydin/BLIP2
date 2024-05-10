@@ -1,0 +1,32 @@
+'''
+This folder contains the Human Body in the Wild (HBW) dataset.
+We provide the test and validation set images and keypoints and 
+the validation set smplx alignments.
+
+
+images & keypoints
+------------------
+These folders contain the images and OpenPose keypoints, respectively. The naming convention is:
+    images/[split]/[subject folder]/[image filename]
+    keypoints/[split]/[subject folder]/[keypoint filename]
+The subject folder naming convention is:
+[subject id]_[number of image taken in the lab]_[number of images taken in the wild]
+
+
+smplx
+-----
+Alignments of each subject in SMPLX topology (10475 vertices).
+
+
+Citation:
+---------
+@inproceedings{Shapy:CVPR:2022,
+  title = {Accurate 3D Body Shape Regression using Metric and Semantic Attribute},
+  author = {Choutas, Vasileios and M{\”u}ller, Lea and Huang, Chun-Hao P. and Tang, Siyu and Tzionas, Dimitris and Black, Michael J.},
+  booktitle = {Proceedings IEEE/CVF Conf.~on Computer Vision and Pattern Recognition (CVPR)},
+  month = jun,
+  year = {2022},
+  month_numeric = {6}
+}
+
+'''
